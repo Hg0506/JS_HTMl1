@@ -1,0 +1,15 @@
+
+#titulo{
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+
+#logo{
+    width: 600px;
+}
+
+#espaco{
+    display: flex;
+    justify-content: space-between;
+}
