@@ -5,8 +5,13 @@
     text-align: center;
 }
 
+#deadpool{
+    width: 500px;
+}
+
 #logo{
     width: 600px;
+    justify-items: center;
 }
 
 #espaco{
