@@ -35,14 +35,14 @@ function Escolha() {
 }
 
 if (coin == dolar) {
-    contaCorrente = contaCorrente * 6
+    contaCorrente = contaCorrente / 6
 } else if (coin == euro){
-    contaCorrente = contaCorrente * 7
+    contaCorrente = contaCorrente / 7
 }
 
 console.log['Usuário '+ usuario + 'tem R$' + contaCorrente + 'em sua conta.'];
-console.log['Usuário '+ usuario + 'tem R$' + contaCorrente + 'em sua conta.'];
-console.log['Usuário '+ usuario + 'tem R$' + contaCorrente + 'em sua conta.'];
+console.log['Usuário '+ usuario + 'tem $' + contaCorrente + 'em sua conta.'];
+console.log['Usuário '+ usuario + 'tem E' + contaCorrente + 'em sua conta.'];
 
 if (coin == dolar) {
     contaCorrente = contaCorrente * 5,43
